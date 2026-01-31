@@ -1,47 +1,41 @@
-🧾 BillTrack
+## 🧾 BillTrack
 
-BillTrack is a C-based console billing and inventory management system built for small retail stores. It enables GST-based billing, inventory control, and sales tracking using file-based persistence.
+**BillTrack** is a **C-based console billing and inventory management system** built for small retail stores. It enables **GST-based billing**, **inventory control**, and **sales tracking** using **file-based persistence**.
 
-🚀 Features
+### 🚀 Features
 
-Real-time billing with GST calculation
+* **Real-time billing** with GST calculation
+* **Inventory and stock management**
+* **Low-stock alerts**
+* **Bill generation with date & time**
+* **Sales and profit tracking**
+* **Menu-driven console interface**
 
-Inventory and stock management
+### 🛠️ Tech Stack
 
-Low-stock alerts
+* **Language:** C
+* **Concepts:** Structures, File Handling, Time Functions
+* **Platform:** Windows (Console Application)
 
-Bill generation with date & time
+### 📂 Project Files
 
-Sales and profit tracking
+* `shopmanagement.c` – Source code
+* `shopmanagement.exe` – Executable file
+* `shopmanagement.o` – Object file
 
-Menu-driven console interface
+### ▶️ How to Run
 
-🛠️ Tech Stack
-
-Language: C
-
-Concepts: Structures, File Handling, Time Functions
-
-Platform: Windows (Console Application)
-
-📂 Project Files
-
-shopmanagement.c – Source code
-
-shopmanagement.exe – Executable file
-
-shopmanagement.o – Object file
-
-▶️ How to Run
+```bash
 gcc shopmanagement.c -o shopmanagement
 shopmanagement.exe
+```
 
-📌 Notes
+### 📌 Notes
 
-Data is stored using text files (filez.txt, bill.txt, profit.txt)
+* Data is stored using text files (`filez.txt`, `bill.txt`, `profit.txt`)
+* Developed as an academic / learning project
 
-Developed as an academic / learning project
+### 👥 Team Members
 
-👥 Team Members
-1. [Dhiyanesh B](https://github.com/Dhiyanesh-B)
-2. [Karunaamruthan s s](https://github.com/KarunaamruthanSS)
+* [Dhiyanesh B](https://github.com/Dhiyanesh-B)
+* [Karunaamruthan s s](https://github.com/KarunaamruthanSS)
